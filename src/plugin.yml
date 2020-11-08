@@ -1,11 +1,9 @@
-name: BlockShuffle
-main: com.sulphurouscerebrum.plugins.Main
-version: 1.0
-description: Implements the block shuffle mini game
-api-version: 1.16
+name: BlockShufflePlugin
 author: SulphurousC
+description: An implementation of the BlockShuffle minigame
 commands:
   blockshuffle:
-    description: Main BlockShuffle command
-    usage: "Usage /blockshuffle [start|stop|info|setRounds|setRoundTime|setFoodAmount]"
-    description: "Start: Starts the match, Stop: Stops the match, Info: Displays the current settings, setRounds : Sets the number of rounds, setRoundTime: Sets the Round Time (in ticks), setFoodAmount: Sets the number of food to be given"
+    description: BlockShuffle Main Command
+    usage: "Usage : /blockshuffle [start][stop][info][add][remove][list][set [noOfRounds][RoundTime][foodAmount]]"
+version: 2.0
+main: com.sulphurouscerebrum.plugins.Main
