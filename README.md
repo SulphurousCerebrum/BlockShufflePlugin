@@ -11,6 +11,7 @@ Every command starts with `/blockshuffle` with different parameters.
 -   `/blockshuffle info` - Shows the current game settings like total rounds, round time etc.
 -   `/blockshuffle add [playerName]` - Adds a player to the player list
 -   `/blockshuffle remove [playerName]` - Removes a player from the player list
+-   `/blockshuffle list` - Returns the number of players currently in the list
 -   `/blockshuffle set noOfRounds [number_of_rounds]` - Sets the number of rounds to be played
 -   `/blockshuffle set roundTime [round_time]` - Sets the round time in **ticks** (20 ticks is 1 second)
 -   `/blockshuffle set foodAmount [amount_of_food_to_be_given]` - Sets the initial amount of food to be given to each player. (Set to 0 to start with a clear inventory)
