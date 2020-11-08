@@ -17,5 +17,5 @@ Every command starts with `/blockshuffle` with different parameters.
 -   `/blockshuffle set foodAmount [amount_of_food_to_be_given]` - Sets the initial amount of food to be given to each player. (Set to 0 to start with a clear inventory)
 
 ## How it works
-PLugin reads the available blocks from [config.yml](https://github.com/SulphurousCerebrum/BlockShufflePlugin/blob/main/src/config.yml) and assigns a random block to each player. A check is done using BukkitScheduler which does a check every 10 ticks (half a second) 
+Plugin reads the available blocks from [config.yml](https://github.com/SulphurousCerebrum/BlockShufflePlugin/blob/main/src/config.yml) and assigns a random block to each player. A check is done using BukkitScheduler which does a check every 10 ticks (half a second) 
 
