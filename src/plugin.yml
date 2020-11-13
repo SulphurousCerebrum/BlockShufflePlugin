@@ -5,5 +5,5 @@ commands:
   blockshuffle:
     description: BlockShuffle Main Command
     usage: "Usage : /blockshuffle [start][stop][info][add][remove][list][set [noOfRounds][RoundTime][foodAmount]]"
-version: 2.0
+version: 2.1
 main: com.sulphurouscerebrum.plugins.Main
